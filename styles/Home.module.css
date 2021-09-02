@@ -60,7 +60,10 @@
   border: black 1px solid !important;
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
+.imagenContainer {
+  padding: 1rem !important;
 }
 
 .cardsContainer {
@@ -71,7 +74,7 @@
 }
 
 .card {
-  background-color:rgb(155, 169, 173);
+  background-color:rgb(218, 224, 226);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }

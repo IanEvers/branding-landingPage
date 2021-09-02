@@ -32,11 +32,15 @@ export default function Home() {
 
             <p className={styles.quienesSomosTexto}>en fullmerch somos ian y julian, comunmente abreviado jul-ian ah jaja combinados con Sofía, nuestra diseñadora. nada nos gusta más q ofrecer productos y esas cosas.</p>
             <div className={styles.flex}>
-
-              <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
-
-              <Image className={styles.imagen} src="/julian.png" alt="julian" width={200} height={200} />
-              <Image className={styles.imagen} src="/merlino.jfif" alt="sofia" width={200} height={200} />
+              <div className={styles.imagenContainer}>
+                <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
+              </div>
+              <div className={styles.imagenContainer}>
+                <Image className={styles.imagen} src="/julian.png" alt="julian" width={200} height={200} />
+              </div>
+              <div className={styles.imagenContainer}>
+                <Image className={styles.imagen} src="/merlino.jfif" alt="sofia" width={200} height={200} />
+              </div>
             </div>
           </div>
         </div>
@@ -68,7 +72,7 @@ export default function Home() {
             <a target="_blank" href="mailto:contactofullmerch@gmail.com" rel="noreferrer">
               <div className={styles.contactCard}>
                 <h3>
-                  Mandanos un mail
+                  Mandanos mail
                 </h3>
                 <Image className={styles.logo} src="/mail.png" alt="Mail" width={72} height={70} />
               </div>
