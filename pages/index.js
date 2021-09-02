@@ -31,7 +31,7 @@ export default function Home() {
           <div className={styles.flexrow}>
 
             <p className={styles.quienesSomosTexto}>en fullmerch somos ian y julian, comunmente abreviado jul-ian ah jaja combinados con Sofía, nuestra diseñadora. nada nos gusta más q ofrecer productos y esas cosas.</p>
-            <div>
+            <div className={styles.flex}>
 
               <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
 
@@ -47,25 +47,42 @@ export default function Home() {
           <div className={styles.cardsContainer}>
             <div className={styles.card}>
               <h3> Tazas</h3>
+              <Image className={styles.logo} src="/taza.jpg" alt="taza" width={300} height={300} />
             </div>
 
             <div className={styles.card}>
               <h3> Buzos</h3>
-
+              <Image className={styles.logo} src="/buzos.jpg" alt="Buzos" width={300} height={300}/>
             </div>
 
             <div className={styles.card}>
               <h3> Impresiones 3d</h3>
-
+              <Image className={styles.logo} src="/3d.jpg" alt="3d" width={300} height={300}/>
             </div>
           </div>
         </div>
 
         <div className={styles.contacto}>
           <h1>Contacto</h1>
-            mail? ig?
+          <div className={styles.contactContainer}>
+            <a target="_blank" href="mailto:contactofullmerch@gmail.com">
+              <div className={styles.contactCard}>
+                <h3>
+                  Mandanos un mail
+                </h3>
+                <Image className={styles.logo} src="/mail.png" alt="Mail" width={72} height={70} />
+              </div>
+            </a>
+            <a target="_blank" href="https://www.instagram.com/Full_Merch/">
+              <div className={styles.contactCard}>
+                <h3>
+                  Seguinos en IG
+                </h3>
+                <Image className={styles.logo} src="/instagram.png" alt="Instagram" width={72} height={70} />
+              </div>
+            </a>
+          </div>
         </div>
-
       </main>
 
       <footer className={styles.footer}>      
