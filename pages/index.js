@@ -30,12 +30,13 @@ export default function Home() {
           <h1>¿Quiénes Somos?</h1>
           <div className={styles.flexrow}>
 
-            <p className={styles.quienesSomosTexto}>texto que hace mitad de pantalla. somos ian y julian, comunmente abreviado jul-ian ah jaja. nada nos gusta más q ofrecer productos y esas cosas.</p>
+            <p className={styles.quienesSomosTexto}>en fullmerch somos ian y julian, comunmente abreviado jul-ian ah jaja combinados con Sofía, nuestra diseñadora. nada nos gusta más q ofrecer productos y esas cosas.</p>
             <div>
 
               <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
 
               <Image className={styles.imagen} src="/julian.png" alt="julian" width={200} height={200} />
+              <Image className={styles.imagen} src="/merlino.jfif" alt="sofia" width={200} height={200} />
             </div>
           </div>
         </div>
