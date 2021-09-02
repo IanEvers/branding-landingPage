@@ -32,15 +32,34 @@ export default function Home() {
 
             <p className={styles.quienesSomosTexto}>en fullmerch somos ian y julian, comunmente abreviado jul-ian ah jaja combinados con Sofía, nuestra diseñadora. nada nos gusta más q ofrecer productos y esas cosas.</p>
             <div className={styles.flex}>
-              <div className={styles.imagenContainer}>
-                <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
+              <div>
+                <div className={styles.imagenContainer}>
+                  <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
+                </div>
+                <p className={styles.nombres}> Ian "capo" Evers</p>
               </div>
-              <div className={styles.imagenContainer}>
-                <Image className={styles.imagen} src="/julian.png" alt="julian" width={200} height={200} />
+
+              <div>
+                <div className={styles.imagenContainer}>
+                  <Image className={styles.imagen} src="/julian.png" alt="julian" width={200} height={200} />
+                </div>
+                <p className={styles.nombres}> Julián Ahre Dondo</p>
               </div>
-              <div className={styles.imagenContainer}>
-                <Image className={styles.imagen} src="/merlino.jfif" alt="sofia" width={200} height={200} />
+
+              <div>
+                <div className={styles.imagenContainer}>
+                  <Image className={styles.imagen} src="/lucero.png" alt="sofia" width={200} height={200} />
+                </div>
+                <p className={styles.nombres}> Lucero Olveira</p>
               </div>
+
+              <div>
+                <div className={styles.imagenContainer}>
+                  <Image className={styles.imagen} src="/merlino.jfif" alt="sofia" width={200} height={200} />
+                </div>
+                <p className={styles.nombres}> Sofía Merlino.</p>
+              </div>
+              
             </div>
           </div>
         </div>
