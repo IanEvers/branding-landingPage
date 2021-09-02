@@ -65,7 +65,7 @@ export default function Home() {
         <div className={styles.contacto}>
           <h1>Contacto</h1>
           <div className={styles.contactContainer}>
-            <a target="_blank" href="mailto:contactofullmerch@gmail.com">
+            <a target="_blank" href="mailto:contactofullmerch@gmail.com" rel="noreferrer">
               <div className={styles.contactCard}>
                 <h3>
                   Mandanos un mail
@@ -73,7 +73,7 @@ export default function Home() {
                 <Image className={styles.logo} src="/mail.png" alt="Mail" width={72} height={70} />
               </div>
             </a>
-            <a target="_blank" href="https://www.instagram.com/Full_Merch/">
+            <a target="_blank" href="https://www.instagram.com/Full_Merch/" rel="noreferrer">
               <div className={styles.contactCard}>
                 <h3>
                   Seguinos en IG
