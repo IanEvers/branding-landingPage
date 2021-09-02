@@ -17,12 +17,8 @@ export default function Home() {
         </div>
 
         <div className={styles.presentacion}>
-
           <h1>Tu merch, tus reglas.</h1>
-
-          
           <p className={styles.presentacionTexto}>basicamente acá iría la proposicin de valor de la empresa fullMerch o como se llame en el futuro. Explica en quépuede ayudar a los artistas e influencers.</p>
-
         </div>
 
         <div className={styles.quienesSomos}>
@@ -36,7 +32,7 @@ export default function Home() {
                 <div className={styles.imagenContainer}>
                   <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
                 </div>
-                <p className={styles.nombres}> Ian "capo" Evers</p>
+                <p className={styles.nombres}> Ian &quot;capo&quot; Evers</p>
               </div>
 
               <div>
