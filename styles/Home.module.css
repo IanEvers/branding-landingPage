@@ -1,10 +1,19 @@
 .container {
   background-color: rgb(255, 255, 255);
+  font-family: 'EB Garamond', serif;
 }
 
 .headerContainer {
   justify-content: center;
   background-color: rgb(233, 233, 233);
+}
+
+.presentacionTexto {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.5rem; 
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0;
 }
 
 .main {
@@ -39,15 +48,12 @@
   flex-direction: row;
 }
 
-.presentacion {
-
-}
-
-.quienesSomos {
-
+.titulo {
+  font-family: 'Lusitana', serif;
 }
 
 .quienesSomosTexto {
+  font-family: 'EB Garamond', serif;
   font-size: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
