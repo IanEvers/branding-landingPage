@@ -5,7 +5,8 @@
 
 .headerContainer {
   justify-content: center;
-  background-color: rgb(233, 233, 233);
+  background-color: rgb(189 189 189);
+  padding: 1rem;
 }
 
 .presentacionTexto {
@@ -104,8 +105,9 @@
 
 .footer  {
   display: flex;
-  justify-content: center;
-
+  justify-content: center; 
+  background-color: rgb(189 189 189);
+  padding: 1rem;
 }
 
 .footer p {

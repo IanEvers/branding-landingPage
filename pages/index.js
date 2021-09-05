@@ -19,7 +19,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.headerContainer}>
-          <Image src="/fullMerch.svg" alt="FullMerch Logo" width={72} height={70} />
+          <Image src="/logo.png" alt="FullMerch Logo" width={150} height={75} />
         </div>
 
         <div className={styles.presentacion}>
@@ -37,7 +37,7 @@ export default function Home() {
 
               <div>
                 <div className={styles.imagenContainer}>
-                  <Image className={styles.imagen} src="/ian.png" alt="ian" width={200} height={200}  />
+                  <Image className={styles.imagen} src="/ian.jpeg" alt="ian" width={200} height={200}  />
                 </div>
                 <p className={styles.nombres}> Ian &quot;capo&quot; Evers</p>
               </div>
@@ -46,7 +46,7 @@ export default function Home() {
                 <div className={styles.imagenContainer}>
                   <Image className={styles.imagen} src="/julian.png" alt="julian" width={200} height={200} />
                 </div>
-                <p className={styles.nombres}> Julián Ahre Dondo</p>
+                <p className={styles.nombres}> Julián Arredondo</p>
               </div>
 
               <div>
@@ -83,7 +83,7 @@ export default function Home() {
 
             <div className={styles.card}>
               <h3> Impresiones 3d</h3>
-              <Image className={styles.logo} src="/3d.jpg" alt="3d" width={300} height={300}/>
+              <Image className={styles.logo} src="/render3d.gif" alt="3d" width={300} height={300}/>
             </div>
           </div>
         </div>
@@ -114,9 +114,8 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>      
-        <Image className={styles.logo} src="/fullMerch.svg" alt="FullMerch Logo" width={72} height={70} />
-        <p> Confianza. </p>
+      <footer className={styles.footer}>
+        <Image src="/logo.png" alt="FullMerch Logo" width={150} height={75} />
       </footer>
     </div>
   )
