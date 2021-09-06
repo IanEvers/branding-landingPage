@@ -24,7 +24,7 @@ export default function Home() {
 
         <div className={styles.presentacion}>
           <h1 className={styles.titulo}>Tu merch, tus reglas.</h1>
-          <p className={styles.presentacionTexto}>basicamente acá iría la proposicin de valor de la empresa fullMerch o como se llame en el futuro. Explica en quépuede ayudar a los artistas e influencers.</p>
+          <p className={styles.presentacionTexto}>Nos proponemos acercar soluciones creativas para personas que están haciendo sus primeros pasos en las redes sociales y quieren ofrecer a su fandom indumentaria, tazas o cualquier otro tipo de productos con su imagen.</p>
         </div>
 
         <div className={styles.quienesSomos}>
@@ -32,7 +32,7 @@ export default function Home() {
           <h1>¿Quiénes Somos?</h1>
           <div className={styles.flexrow}>
 
-            <p className={styles.quienesSomosTexto}>en fullmerch somos ian y julian, comunmente abreviado jul-ian ah jaja combinados con Sofía, nuestra diseñadora. nada nos gusta más q ofrecer productos y esas cosas.</p>
+            <p className={styles.quienesSomosTexto}>Somos cuatro jóvenes estudiantes con intereses y habilidades muy distintos. Eso nos permite tener una visión multidisciplinaria y creativa. Nos nutrimos del intercambio de ideas entre nosotros y con eso, ofrecemos propuestas superadoras a nuestros clientes. Nuestro principal valor es la flexibilidad y somos conscientes de eso.</p>
             <div className={styles.flex}>
 
               <div>
@@ -62,7 +62,6 @@ export default function Home() {
                 </div>
                 <p className={styles.nombres}> Sofía Merlino.</p>
               </div>
-              
             </div>
           </div>
         </div>
