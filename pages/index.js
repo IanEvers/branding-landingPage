@@ -32,7 +32,7 @@ export default function Home() {
           <h1>¿Quiénes Somos?</h1>
           <div className={styles.flexrow}>
 
-            <p className={styles.quienesSomosTexto}>Somos cuatro jóvenes estudiantes con intereses y habilidades muy distintos. Eso nos permite tener una visión multidisciplinaria y creativa. Nos nutrimos del intercambio de ideas entre nosotros y con eso, ofrecemos propuestas superadoras a nuestros clientes. Nuestro principal valor es la flexibilidad y somos conscientes de eso.</p>
+            <p className={styles.quienesSomosTexto}>Somos tres estudiantes con intereses y habilidades muy distintos. Eso nos permite tener una visión multidisciplinaria y creativa. Nos nutrimos del intercambio de ideas entre nosotros y con eso, ofrecemos propuestas superadoras a nuestros clientes. Nuestro principal valor es la flexibilidad y somos conscientes de eso.</p>
             <div className={styles.flex}>
 
               <div>
