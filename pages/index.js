@@ -51,13 +51,6 @@ export default function Home() {
 
               <div>
                 <div className={styles.imagenContainer}>
-                  <Image className={styles.imagen} src="/lucero.png" alt="sofia" width={200} height={200} />
-                </div>
-                <p className={styles.nombres}> Lucero Olveira</p>
-              </div>
-
-              <div>
-                <div className={styles.imagenContainer}>
                   <Image className={styles.imagen} src="/merlino.jfif" alt="sofia" width={200} height={200} />
                 </div>
                 <p className={styles.nombres}> Sofía Merlino.</p>
